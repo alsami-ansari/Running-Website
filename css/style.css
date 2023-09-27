@@ -15,6 +15,7 @@ body {
     top: 45px;
 }
 
+a:link{color:black;}
 .navbar {
     margin-left: 710px;
     margin-top: 85px;
