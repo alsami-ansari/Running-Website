@@ -1,0 +1,1313 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.heads {
+    width: 100vw;
+    height: 32vh;
+}
+
+.logo {
+    position: absolute;
+    left: 280px;
+    top: 45px;
+}
+
+.navbar {
+    margin-left: 710px;
+    margin-top: 85px;
+    width: 500px;
+}
+
+.navbar li {
+    display: inline-block;
+    font-family: "Arial Black";
+    font-size: 14px;
+    padding: 17px;
+}
+
+
+
+
+
+a {
+    text-decoration: none;
+}
+
+.navbar li.select a:hover {
+    color: #fb416f;
+}
+
+.navbar li a:hover {
+    color: #16ab88;
+}
+
+
+a:visited {
+    color: black;
+
+}
+
+.navbar li.select a {
+    color: #fb416f;
+}
+
+
+
+#bodyimg {
+    width: 100vw;
+    height: 100vw;
+    background-image: url(../images/bg-home.png);
+    border-top: 2px solid black;
+    background-size: 100%;
+    background-size: cover;
+    background-position: 48%, 10%;
+    margin-top: -80px;
+}
+
+
+.full h1 {
+    position: absolute;
+    top: 230px;
+    left: 330px;
+    font-family: 'Arial Black';
+    font-size: 110px;
+    text-align: center;
+    line-height: 96px;
+
+}
+
+
+.email {
+    position: absolute;
+    top: 630px;
+    left: 580px;
+    font-family: arial;
+    font-size: 20px;
+    font-weight: bold;
+    border: 5px solid black;
+    height: 47px;
+    width: 240px;
+    text-align: center;
+    line-height: 47px;
+}
+
+.signup {
+    position: absolute;
+    top: 630px;
+    left: 828px;
+    font-family: arial;
+    font-size: 20px;
+    font-weight: bold;
+    border: 5px solid black;
+    border-left: none;
+    height: 47px;
+    width: 120px;
+    text-align: center;
+    line-height: 47px;
+}
+
+
+.runner {
+    position: absolute;
+    top: 750px;
+    left: 290px;
+}
+
+.trans {
+    width: 100vw;
+    height: 60vh;
+    background: url(../images/bg-transparent1.png);
+    background-size: cover;
+    position: absolute;
+    top: 1300px;
+}
+
+.trans h1 {
+    font-family: 'Arial Black';
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    line-height: 120px;
+    background: url(../images/bg-border1.gif) no-repeat center bottom;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.trans p {
+    color: white;
+    display: block;
+    font-family: Arial;
+    font-size: 25px;
+    line-height: 48px;
+    text-align: center;
+    background: url(../images/bg-border1.gif) no-repeat center bottom;
+    padding: 15px;
+    margin: 0;
+}
+
+.readmore {
+    width: 240px;
+    height: 50px;
+    border: 5px solid white;
+
+    font-family: 'Arial Black';
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    left: 640px;
+    bottom: 65px;
+    padding: 0;
+    line-height: 47px;
+
+}
+
+.readmore:hover {
+    background-color: white;
+}
+
+.readmore:link {
+    color: white;
+}
+
+
+.footer {
+    width: 100vw;
+    height: 20vh;
+    background-color: black;
+    margin-top: -62px;
+}
+
+.footer p {
+    color: white;
+    font-family: arial;
+    font-size: 17px;
+    position: relative;
+    left: 300px;
+    top: 60px;
+}
+
+
+.social {
+    width: 450px;
+    float: right;
+    padding: 15px;
+}
+
+i {
+    font-size: 30px;
+    color: aliceblue;
+}
+
+.fa-twitter:hover {
+    color: #16ab88;
+}
+
+.fa-facebook:hover {
+    color: violet;
+}
+
+.fa-instagram:hover {
+    color: orange;
+}
+
+.fa-pinterest:hover {
+    color: yellow;
+}
+
+.fa-twitter {
+    margin-left: 10px;
+}
+
+.fa-facebook {
+    margin-left: 10px;
+}
+
+.fa-instagram {
+    margin-left: 10px;
+}
+
+.fa-pinterest {
+    margin-left: 10px;
+}
+
+
+/* About Page CSS---------------------------------------------------------------------- */
+
+.header {
+    width: 100vw;
+    height: 32vh;
+}
+
+.logo2 {
+    position: absolute;
+    left: 280px;
+    top: 45px;
+}
+
+.navbar2 {
+    margin-left: 710px;
+    margin-top: 85px;
+    width: 500px;
+}
+
+.navbar2 li {
+    display: inline-block;
+    font-family: "Arial Black";
+    font-size: 14px;
+    padding: 17px;
+}
+
+
+
+.navbar2 li.select a {
+    color: #fb416f;
+}
+
+
+.navbar2 li.select a:hover {
+    color: #fb416f;
+}
+
+.navbar2 li a:hover {
+    color: #16ab88;
+}
+
+#bodyimg2 {
+    width: 100vw;
+    height: 100vw;
+    background-image: url(../images/bg-home.png);
+    border-top: 2px solid black;
+    background-size: 100%;
+    background-size: cover;
+    background-position: 48%, 10%;
+    margin-top: -80px;
+}
+
+.transparent2 {
+    background-image: url(../images/bg-transparent2.png);
+
+    background-size: cover;
+    width: 65%;
+    height: 100%;
+    margin-left: 300px;
+    margin-top: -27px;
+
+}
+
+.transparent2 h1 {
+    background: url(../images/bg-border2.gif) no-repeat center bottom;
+
+    color: #FC416F;
+    font-family: 'Arial Black';
+    font-size: 40px;
+    text-align: center;
+    line-height: 80px;
+    position: relative;
+    top: 40px;
+
+
+}
+
+.transparent2 img {
+    position: relative;
+    left: 195px;
+    top: 80px;
+}
+
+.transparent2 h2 {
+    color: #FFFFFF;
+    font-family: arial;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+
+.transparent2 p {
+    color: white;
+    font-size: 16px;
+    font-family: Arial;
+
+    line-height: 48px;
+    position: relative;
+    top: 100px;
+    text-align: center;
+
+}
+
+.transparent2 h3 {
+    color: #FFFFFF;
+    font-family: arial;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    top: 130px;
+}
+
+.transparent2 .para {
+    color: white;
+    font-size: 16px;
+    font-family: Arial;
+
+    line-height: 48px;
+    position: relative;
+    top: 120px;
+    text-align: center;
+}
+
+
+.transparent2 h4 {
+    color: #FFFFFF;
+    font-family: arial;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    top: 125px;
+}
+
+.transparent2 .para2 {
+    color: white;
+    font-size: 16px;
+    font-family: Arial;
+
+    line-height: 48px;
+    position: relative;
+    top: 110px;
+    text-align: center;
+}
+
+.transparent2 h5 {
+    color: white;
+    font-family: arial;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    top: 105px;
+}
+
+.transparent2 .para3 {
+    color: white;
+    font-size: 16px;
+    font-family: Arial;
+
+    line-height: 48px;
+    position: relative;
+    top: 90px;
+    text-align: center;
+}
+
+
+/*  Running Page Css --------------------------------------------------------*/
+
+.headrunn {
+    width: 100vw;
+    height: 32vh;
+}
+
+.logo3 {
+    position: absolute;
+    left: 280px;
+    top: 45px;
+}
+
+.navbar3 {
+    margin-left: 710px;
+    margin-top: 85px;
+    width: 500px;
+}
+
+.navbar3 li {
+    display: inline-block;
+    font-family: "Arial Black";
+    font-size: 14px;
+    padding: 17px;
+}
+
+
+.navbar3 li.select a {
+    color: #fb416f;
+}
+
+
+.navbar3 li.select a:hover {
+    color: #fb416f;
+}
+
+.navbar3 li a:hover {
+    color: #16ab88;
+}
+
+#bodyimg3 {
+    width: 100vw;
+    height: 100vw;
+    background-image: url(../images/bg-home.png);
+    border-top: 2px solid black;
+    background-size: 100%;
+    background-size: cover;
+    background-position: 48%, 10%;
+    margin-top: -80px;
+}
+
+.transparent3 {
+    background-image: url(../images/bg-transparent2.png);
+
+    background-size: cover;
+    width: 65%;
+    height: 100%;
+    margin-left: 300px;
+    margin-top: -27px;
+
+}
+
+.transparent3 h1 {
+    color: #FC416F;
+    background: url(../images/bg-border2.gif) no-repeat center bottom;
+    font-family: 'Arial Black';
+    font-size: 40px;
+    text-align: center;
+    padding-top: 50px;
+    line-height: 70px;
+}
+
+.album {
+    display: flex;
+}
+
+.album1 {
+    padding: 18px;
+}
+
+.transparent3 h2 {
+    background: url(../images/bg-border1.gif) no-repeat center top;
+    color: white;
+    display: block;
+    font-family: Arial;
+    font-size: 27px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 50px;
+    padding-top: 20px;
+    margin-top: 40px;
+}
+
+.transparent3 h3 {
+    background: url(../images/bg-border1.gif) no-repeat center top;
+
+    margin-top: -15px;
+}
+
+.transparent3 p {
+    color: white;
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 50px;
+    text-align: center;
+    margin-top: -15px;
+
+}
+
+.transparent3 .p2 {
+    padding-top: 25px;
+}
+
+
+
+/* Blog Page css------------------------------------------------------------*/
+
+
+.head4 {
+    width: 100vw;
+    height: 32vh;
+}
+
+.logo4 {
+    position: absolute;
+    left: 280px;
+    top: 45px;
+}
+
+.navbar4 {
+    margin-left: 710px;
+    margin-top: 85px;
+    width: 500px;
+}
+
+.navbar4 li {
+    display: inline-block;
+    font-family: "Arial Black";
+    font-size: 14px;
+    padding: 17px;
+}
+
+.navbar4 li.select a {
+    color: #fb416f;
+}
+
+
+.navbar4 li.select a:hover {
+    color: #fb416f;
+}
+
+.navbar4 li a:hover {
+    color: #16ab88;
+}
+
+#bodyimg4 {
+    width: 100vw;
+    height: 100vw;
+    background-image: url(../images/bg-home.png);
+    border-top: 2px solid black;
+    background-size: 100%;
+    background-size: cover;
+    background-position: 48%, 10%;
+    margin-top: -80px;
+}
+
+.transparent4 {
+    background-image: url(../images/bg-transparent2.png);
+
+    background-size: cover;
+    width: 65%;
+    height: 100%;
+    margin-left: 300px;
+    margin-top: -27px;
+
+
+}
+
+.transparent4 h1 {
+    background: url(../images/bg-border2.gif) no-repeat center bottom;
+    color: #FC416F;
+    font-family: 'Arial Black';
+    font-size: 40px;
+    text-align: center;
+    padding-top: 50px;
+    line-height: 70px;
+
+}
+
+
+.blogbox img {
+    margin-left: 80px;
+    margin-top: 60px;
+}
+
+
+
+.blogcontent h2 {
+
+    color: white;
+    font-family: arial;
+    font-size: 25px;
+    font-weight: normal;
+
+}
+
+
+.blogcontent p {
+
+    color: white;
+    font-family: arial;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 48px;
+
+}
+
+
+
+.blogcontent a {
+    border: 2px solid white;
+    color: white;
+    font-family: arial;
+    font-size: 14px;
+    padding: 10px;
+    display: block;
+    width: 130px;
+    height: 18px;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: -10px;
+
+}
+
+.blogcontent a:hover {
+    background-color: #fb416f;
+}
+
+.blogcontent {
+    position: relative;
+    top: -250px;
+    left: 350px;
+}
+
+hr {
+    border: 1px solid rgb(65, 61, 61);
+    margin-top: -200px;
+    width: 55vw;
+}
+
+.blogbox2 img {
+    margin-left: 80px;
+    margin-top: 25px;
+}
+
+
+
+
+.blogcontent2 h2 {
+
+    color: white;
+    font-family: arial;
+    font-size: 25px;
+    font-weight: normal;
+
+}
+
+
+.blogcontent2 p {
+
+    color: white;
+    font-family: arial;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 48px;
+
+}
+
+
+
+.blogcontent2 a {
+    border: 2px solid white;
+    color: white;
+    font-family: arial;
+    font-size: 14px;
+    padding: 10px;
+    display: block;
+    width: 130px;
+    height: 18px;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: -10px;
+
+}
+
+.blogcontent2 a:hover {
+    background-color: #fb416f;
+}
+
+.blogcontent2 {
+    position: relative;
+    top: -250px;
+    left: 350px;
+}
+
+
+
+.blogbox3 img {
+    margin-left: 80px;
+    margin-top: 25px;
+}
+
+.blogcontent3 h2 {
+
+    color: white;
+    font-family: arial;
+    font-size: 25px;
+    font-weight: normal;
+
+}
+
+
+.blogcontent3 p {
+
+    color: white;
+    font-family: arial;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 48px;
+
+}
+
+
+
+.blogcontent3 a {
+    border: 2px solid white;
+    color: white;
+    font-family: arial;
+    font-size: 14px;
+    padding: 10px;
+    display: block;
+    width: 130px;
+    height: 18px;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: -10px;
+
+}
+
+.blogcontent3 a:hover {
+    background-color: #fb416f;
+}
+
+.blogcontent3 {
+    position: relative;
+    top: -250px;
+    left: 350px;
+}
+
+
+.blogbox4 img {
+    margin-left: 80px;
+    margin-top: 25px;
+}
+
+.blogcontent4 h2 {
+
+    color: white;
+    font-family: arial;
+    font-size: 25px;
+    font-weight: normal;
+
+}
+
+
+.blogcontent4 p {
+
+    color: white;
+    font-family: arial;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 48px;
+
+}
+
+
+
+.blogcontent4 a {
+    border: 2px solid white;
+    color: white;
+    font-family: arial;
+    font-size: 14px;
+    padding: 10px;
+    display: block;
+    width: 130px;
+    height: 18px;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: -10px;
+
+}
+
+.blogcontent4 a:hover {
+    background-color: #fb416f;
+}
+
+.blogcontent4 {
+    position: relative;
+    top: -250px;
+    left: 350px;
+}
+
+
+
+
+
+/* CONTACT PAGE CSS----------------------------------------------------------------------*/
+
+
+.head5 {
+    width: 100vw;
+    height: 32vh;
+}
+
+.logo5 {
+    position: absolute;
+    left: 280px;
+    top: 45px;
+}
+
+.navbar5 {
+    margin-left: 710px;
+    margin-top: 85px;
+    width: 500px;
+}
+
+.navbar5 li {
+    display: inline-block;
+    font-family: "Arial Black";
+    font-size: 14px;
+    padding: 17px;
+}
+
+
+
+.navbar5 li.select a:hover {
+    color: #fb416f;
+}
+
+.navbar5 li a:hover {
+    color: #16ab88;
+}
+
+.navbar5 li.select a {
+    color: #fb416f;
+}
+
+
+#bodyimg5 {
+    width: 100vw;
+    height: 100vw;
+    background-image: url(../images/bg-home.png);
+    border-top: 2px solid black;
+    background-size: 100%;
+    background-size: cover;
+    background-position: 48%, 10%;
+    margin-top: -80px;
+}
+
+.transparent5 {
+    background-image: url(../images/bg-transparent2.png);
+
+    background-size: cover;
+    width: 65%;
+    height: 100%;
+    margin-left: 300px;
+    margin-top: -27px;
+
+
+
+}
+
+.transparent5 h1 {
+    background: url(../images/bg-border2.gif) no-repeat center bottom;
+    color: #FC416F;
+    font-family: 'Arial Black';
+    font-size: 40px;
+    text-align: center;
+    padding-top: 50px;
+    line-height: 70px;
+
+}
+
+.transparent5 img {
+    margin-left: 95px;
+    margin-top: 30px;
+}
+
+.transparent5 h2 {
+    color: white;
+    font-family: arial;
+    font-size: 20px;
+    text-align: center;
+    line-height: 45px;
+
+
+
+}
+
+.transparent5 p {
+    color: white;
+    font-family: arial;
+
+    font-size: 16px;
+    text-align: center;
+    margin-top: -10px;
+
+
+
+}
+
+.transparent5 h3 {
+
+    color: white;
+    font-family: arial;
+    font-size: 20px;
+    text-align: center;
+
+
+}
+
+.transparent5 a {
+    display: block;
+    color: white;
+    font-size: 16px;
+    font-family: arial;
+    margin-top: -5px;
+    text-align: center;
+    margin-right: 15px;
+}
+
+
+.transparent5 h5 {
+
+    color: white;
+    font-family: arial;
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    margin-top: 22px;
+
+
+}
+
+.transparent5 #email {
+    color: white;
+    margin-top: 13px;
+    margin-left: 10px;
+}
+
+.transparent5 h6 {
+    background: url(../images/bg-border1.gif) no-repeat center bottom;
+    color: #FFFFFF;
+    font-family: 'Arial Black';
+    font-size: 30px;
+    font-weight: normal;
+    line-height: 80px;
+    text-align: center;
+    margin-top: -5px;
+}
+
+.transparent5 form .name input {
+    background: none;
+    border: 2px solid white;
+    color: white;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+    width: 491px;
+    height: 40px;
+    margin-left: 245px;
+
+
+}
+
+.transparent5 form .address input {
+    background: none;
+    border: 2px solid white;
+    color: white;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+    width: 491px;
+    height: 40px;
+    margin-left: 245px;
+    margin-top: 20px;
+
+
+}
+
+form {
+    margin-top: -25px;
+}
+
+.transparent5 form .email2 input {
+    background: none;
+    border: 2px solid white;
+    color: white;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+    width: 491px;
+    height: 40px;
+    margin-left: 245px;
+    margin-top: 20px;
+
+}
+
+.transparent5 form .msg textarea {
+    background: none;
+    border: 2px solid white;
+    color: white;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+    width: 491px;
+    height: 90px;
+    margin-left: 245px;
+    margin-top: 20px;
+    resize: none;
+    line-height: 35px;
+}
+
+.transparent5 form .button input {
+    display: block;
+    background: none;
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: block;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: bold;
+    width: 145px;
+    height: 45px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-left: 417px;
+    margin-top: 13px;
+}
+
+.transparent5 form .button input:hover {
+    background-color: #fb416f;
+}
+
+
+
+
+/*---------------------------blog single page css---------------------------*/
+
+
+.head6 {
+    width: 100vw;
+    height: 32vh;
+}
+
+.logo6 {
+    position: absolute;
+    left: 280px;
+    top: 45px;
+}
+
+.navbar6 {
+    margin-left: 710px;
+    margin-top: 85px;
+    width: 500px;
+}
+
+.navbar6 li {
+    display: inline-block;
+    font-family: "Arial Black";
+    font-size: 14px;
+    padding: 17px;
+}
+
+
+
+
+
+.navbar6 li a:hover {
+    color: #16ab88;
+}
+
+
+
+#bodyimg6 {
+    width: 100vw;
+    height: 100vw;
+    background-image: url(../images/bg-home.png);
+    border-top: 2px solid black;
+    background-size: 100%;
+    background-size: cover;
+    background-position: 48%, 10%;
+    margin-top: -80px;
+}
+
+.transparent6 {
+    background-image: url(../images/bg-transparent2.png);
+
+    background-size: cover;
+    width: 65%;
+    height: 100%;
+    margin-left: 300px;
+    margin-top: -27px;
+
+
+
+}
+
+.transparent6 h1 {
+    background: url(../images/bg-border2.gif) no-repeat center bottom;
+    color: #FC416F;
+    font-family: 'Arial Black';
+    font-size: 40px;
+    text-align: center;
+    padding-top: 50px;
+    line-height: 70px;
+
+}
+
+.transparent6 img {
+
+    margin-top: 70px;
+    margin-left: 100px;
+
+
+
+}
+
+#text {
+    position: relative;
+    bottom: 260px;
+    left: 360px;
+}
+
+
+.transparent6 #text h2 {
+    color: white;
+    font-family: Arial;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+
+.transparent6 #text p {
+
+    color: white;
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 48px;
+}
+
+.transparent6 #text #blogpara {
+    color: white;
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 48px;
+    margin-top: 50px;
+}
+
+.transparent6 #text #blogpara2 {
+    color: white;
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 48px;
+    margin-top: 50px;
+}
+
+
+
+
+/*---------------- running single css---------------------*/
+
+
+.head7 {
+    width: 100vw;
+    height: 32vh;
+}
+
+.logo7 {
+    position: absolute;
+    left: 280px;
+    top: 45px;
+}
+
+.navbar7 {
+    margin-left: 710px;
+    margin-top: 85px;
+    width: 500px;
+}
+
+.navbar7 li {
+    display: inline-block;
+    font-family: "Arial Black";
+    font-size: 14px;
+    padding: 17px;
+}
+
+
+
+
+
+.navbar7 li a:hover {
+    color: #16ab88;
+}
+
+
+
+#bodyimg7 {
+    width: 100vw;
+    height: 100vw;
+    background-image: url(../images/bg-home.png);
+    border-top: 2px solid black;
+    background-size: 100%;
+    background-size: cover;
+    background-position: 48%, 10%;
+    margin-top: -80px;
+}
+
+.transparent7 {
+    background-image: url(../images/bg-transparent2.png);
+
+    background-size: cover;
+    width: 65%;
+    height: 100%;
+    margin-left: 300px;
+    margin-top: -27px;
+
+
+
+}
+
+
+.transparent7 h1 {
+    background: url(../images/bg-border2.gif) no-repeat center bottom;
+    color: #FC416F;
+    font-family: 'Arial Black';
+    font-size: 40px;
+    text-align: center;
+    padding-top: 50px;
+    line-height: 70px;
+
+}
+
+
+.transparent7 img {
+
+    margin-left: 270px;
+    margin-top: 50px;
+
+}
+
+.transparent7 h2 {
+    background: url(../images/bg-border1.gif) no-repeat center top;
+    color: white;
+    font-family: Arial;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 48px;
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 20px;
+
+}
+
+.transparent7 h2 span {
+
+    background: url(../images/bg-border1.gif) no-repeat center bottom;
+    display: block;
+    padding-bottom: 20px;
+}
+
+
+.transparent7 p {
+    color: white;
+    font-family: arial;
+    font-size: 16px;
+    line-height: 48px;
+    text-align: center;
+}
+
+.transparent7 #runningtext {
+
+    font-style: italic;
+    margin-top: 50px;
+}
+
+.transparent7 #runningtext2 {
+
+
+    margin-top: 50px;
+}
