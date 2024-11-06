@@ -1,7 +1,7 @@
 # Running-Website
 
 
-[Click here to open website](https://samiansari01.github.io/Running-Website/)
+[Click here to open website](https://alsami-ansari.github.io/Running-Website/)
 
 
 
